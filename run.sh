@@ -7,4 +7,4 @@ curl_output=$(curl -k -f https://www.pilotdog.tech/api/get_eligible_proof?addres
 echo "$curl_output" >> Update.tsx
 
 # Menambahkan pesan bahwa Update.tsx telah diperbarui
-echo "Ter-Update." 
+echo "Tee." 
