@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Menjalankan perintah curl dan menyimpan outputnya ke dalam file Update.tsx
-curl_output=$(curl -k -f https://www.pilotdog.tech/api/get_eligible_proof?address=0xA3268eDfd84415472D9c30eCdEBa487f865Ee063 2>&1)
+curl_output=$(curl -k -f https://www.pilotdog.tech/api/get_eligible_proof?address=0xe5Cc61F225409dB6CEb1DEa160F89e688cB561AD 2>&1)
 
 # Menyimpan hasil output curl ke dalam file Update.tsx
 echo "$curl_output" >> Update.tsx
